@@ -87,6 +87,12 @@
 		<Unit filename="C:/code/OOP Labs/Lab 4/main.cpp">
 			<Option target="Lab_4"/>
 		</Unit>
+		<Unit filename="C:/code/OOP Labs/Lab 4/radix.cpp">
+			<Option target="Lab_4"/>
+		</Unit>
+		<Unit filename="C:/code/OOP Labs/Lab 4/radix.h">
+			<Option target="Lab_4"/>
+		</Unit>
 		<Unit filename="C:/code/OOP Labs/Lab 4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

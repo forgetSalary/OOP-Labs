@@ -154,6 +154,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab_4.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+radix.obj: radix.cpp.obj
+
+.PHONY : radix.obj
+
+# target to build an object file
+radix.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab_4.dir\radix.cpp.obj
+.PHONY : radix.cpp.obj
+
+radix.i: radix.cpp.i
+
+.PHONY : radix.i
+
+# target to preprocess a source file
+radix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab_4.dir\radix.cpp.i
+.PHONY : radix.cpp.i
+
+radix.s: radix.cpp.s
+
+.PHONY : radix.s
+
+# target to generate assembly for a file
+radix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab_4.dir\radix.cpp.s
+.PHONY : radix.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -166,6 +193,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... radix.obj
+	@echo ... radix.i
+	@echo ... radix.s
 .PHONY : help
 
 

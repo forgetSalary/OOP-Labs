@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/code/OOP Labs/Lab 4/main.cpp
-iostream
+C:/code/OOP Labs/Lab 4/radix.cpp
+radix.h
+C:/code/OOP Labs/Lab 4/radix.h
+
+C:/code/OOP Labs/Lab 4/radix.h
+cmath
 -
-vector
+string
 -
-memory
+stdexcept
 -
 
