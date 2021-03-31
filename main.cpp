@@ -158,7 +158,7 @@ void test_set(){
 
 void test_radix(){
     std::string test_values[] = {"1234.4321","11.11","10","12.",".13",".","0.0","foo.bar","789.0","0.658","9.9"};
-    //std::string test_values[] = {"789.0","0.658","9.9"};
+    //std::string test_values[] = {"789.0","0.658","9.9"};//stress
     std::string result;
 
     int testes_count = sizeof(test_values)/sizeof(std::string);
@@ -167,7 +167,7 @@ void test_radix(){
         std::cout << "Oct: "<< test_values[i] << '\n';
         result.clear();
         try {
-            radix_convert(test_values[i],result, 8, 16);
+            radix_convert(test_values[i],result, 8, 6);
             std::cout << "Hex:" << result << "\n\n";
         }catch (std::exception& err) {
             std::cout << "Err:" << err.what() << "\n\n";
