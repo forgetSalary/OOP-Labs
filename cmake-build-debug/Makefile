@@ -127,6 +127,33 @@ Lab_4\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab_4.dir\build
 .PHONY : Lab_4\fast
 
+lab6.obj: lab6.cpp.obj
+
+.PHONY : lab6.obj
+
+# target to build an object file
+lab6.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab_4.dir\lab6.cpp.obj
+.PHONY : lab6.cpp.obj
+
+lab6.i: lab6.cpp.i
+
+.PHONY : lab6.i
+
+# target to preprocess a source file
+lab6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab_4.dir\lab6.cpp.i
+.PHONY : lab6.cpp.i
+
+lab6.s: lab6.cpp.s
+
+.PHONY : lab6.s
+
+# target to generate assembly for a file
+lab6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab_4.dir\lab6.cpp.s
+.PHONY : lab6.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -190,6 +217,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Lab_4
+	@echo ... lab6.obj
+	@echo ... lab6.i
+	@echo ... lab6.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

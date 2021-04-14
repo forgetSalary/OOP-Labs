@@ -3,6 +3,9 @@
 #include "radix.h"
 #include <stdint.h>
 
+
+void set_test_lab6();
+
 template <class T>
 class Set{
     std::vector<T> set;
@@ -175,8 +178,9 @@ void test_radix(){
     }
 }
 
+
+
 int main() {
-    //test_set();
-    test_radix();
+    set_test_lab6();
     return 0;
 }
